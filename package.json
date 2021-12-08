@@ -1,0 +1,21 @@
+{
+    "name": "sushi-lorn-backend",
+    "version": "1.0.0",
+    "description": "Backend para la aplicacion sushi lorn.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "paul veliz",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "html-pdf": "^2.2.0",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "node-datetime": "^2.1.2",
+        "string-hex": "^1.0.0"
+    }
+}
